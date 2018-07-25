@@ -10,7 +10,7 @@ const styledMessage = chalk.bgBlack.green(greet('Luke'));
 const figletMessage = figlet.textSync('Hello Luke');
 
 
-console.log('styled message : ' + styledMessage);
+console.log('chalk message : ' + styledMessage);
 console.log('==============');
 console.log('figlet message : '+ figletMessage);
 
